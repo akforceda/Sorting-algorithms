@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 public class BubbleSort {
 
 	public static int[] sort(int[] inputArray) {
+//		long a = System.nanoTime();
+		
 		for (int i = inputArray.length - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				if (inputArray[j] > inputArray[j + 1]) {
@@ -18,6 +20,10 @@ public class BubbleSort {
 				}
 			}
 		}
+		
+//		long b = System.nanoTime();
+//		System.out.println((b-a));
+
 		//returning the sorted array
 		return inputArray;
 	}

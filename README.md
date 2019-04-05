@@ -1,6 +1,6 @@
 # Sorting-algorithms
 
-This project is a demonstration of the different sorting algorithms implemented in Java.
+This project is a simple demonstration of the different sorting algorithms implemented in Java.
 
 Tip 1:
 To Comapare the time complexities please uncomment the following 3 lines from the sort method of every program:

@@ -9,7 +9,7 @@ To Comapare the time complexities please uncomment the following 3 lines from th
 2) long b = System.nanoTime();
 3) System.out.println(b-a);
 
-This will calculate the difference between the entry and exit time i.e the execution time.
+This will calculate the difference between the entry and exit time i.e the execution time in nano seconds.
 
 Tip 2:
 Please use inputs of length > 15 to see effective differences between the algorithms.
